@@ -1,26 +1,18 @@
 # Build directories
-build/
-cmake-build-*/
+/build/
+/build-*/
 
-# Executables
-*.out
-*.exe
-
-# Object files
-*.o
-*.obj
-
-# Debugging
-.vscode/
-.idea/
-
-# CMake
+# CMake generated files
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
-compile_commands.json
 CTestTestfile.cmake
+Makefile
+compile_commands.json
 
-# OS files
+# Editor / OS files
+.vscode/
+.idea/
+*.swp
+*.swo
 .DS_Store
-Thumbs.db
